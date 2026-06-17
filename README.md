@@ -15,4 +15,4 @@ Scripts and notebooks are in this repository.
 ## Data
 
 Large datasets and simulation outputs are stored separately.
->>>>>>> 4a7548f (initial setup)
+
