@@ -1,0 +1,11 @@
+data/
+results/
+
+__pycache__/
+.ipynb_checkpoints/
+
+*.xdmf
+*.h5
+*.vtu
+*.pvd
+
