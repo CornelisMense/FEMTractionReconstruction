@@ -1,0 +1,46 @@
+Name: AnnaAFM
+
+STLImportName: None
+DisplacementFieldImportName: None
+ImagePaths: [Undeformed.tiff, Deformed.tiff, Bulk.tiff, Lever.tiff]
+CellSegmentation: False
+
+Resolution: 1
+ResolutionZ: 4
+DownScaleFactor: 2
+RangeX: 1e3
+RangeY: 1e3
+RangeZ: 1e3
+
+IntensityInterpolationType: "Fade"
+SmoothingSigma: 1.5
+BSplineBasis: [30,30,10]
+BoxMeshResolution: 10
+
+MinXUndeformed: 0
+MinXDeformed: 0
+MinXBulk: 0
+MinXCells: 0
+MinYUndeformed: 0
+MinYDeformed: 0
+MinYBulk: 0
+MinYCells: 0
+MinZUndeformed: 0
+MinZDeformed: 0
+MinZBulk: 0
+MinZCells: 0
+OffsetUndeformed: 0
+OffsetXDeformed: 0
+OffsetXBulk: 0
+OffsetXCells: 0
+
+ThresholdMinUndeformed: 250
+ThresholdMinDeformed: 250
+ThresholdMinBulk: 400
+ThresholdMinCells: 325
+ThresholdMinUndeformed: 250
+ThresholdMinDeformed: 250
+ThresholdMinBulk: 400
+ThresholdMinCells: 325
+ThresholdType: "Constant"
+PhotoBleachingAxis: 2
